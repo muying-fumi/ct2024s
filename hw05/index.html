@@ -178,14 +178,17 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      該次作業程式碼，請放在 https://github.com/<span style="color:red;">你的帳號</span>/ct2024s/hw<span style="color:red;">05</span>/src/ 檔案夾。
+      該次作業程式碼，請放在<br>
+      https://github.com/<span style="color:red;">你的帳號</span>/ct2024s/hw<span style="color:red;">05</span>/<span style="color:red;">Simple</span>。<br>
+      https://github.com/<span style="color:red;">你的帳號</span>/ct2024s/hw<span style="color:red;">05</span>/<span style="color:red;">Medium</span>。<br>
+      https://github.com/<span style="color:red;">你的帳號</span>/ct2024s/hw<span style="color:red;">05</span>/<span style="color:red;">Strong</span>。
     </div>
   </div>
 
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次作業需要顯卡才能順利完成，否則可能要花上10倍以上的時間，光是用顯卡都要約2天時間才訓練好，若是用內顯跑可能會需要花20天左右，還好在經歷一堆波折後成功啟用cuda，能使用2080Ti跑機器學習，完成此次作業。
     </div>
   </div>
 
@@ -201,19 +204,24 @@
         </tr>
         <tr>
           <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>2</td>
-          <td>Simple baseline - 描述、描述、描述</td>
+          <td>Simple baseline - 產生訓練樣本 (4808字/2) (放入image_train，壓縮檔上傳)</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
-          <td id='m2'>6</td>
-          <td>Medium baseline - 描述、描述、描述 </td>
+          <td id='m2'>2</td>
+          <td>Simple baseline - 產生驗證樣本 (4808字/2) (放入image_val，壓縮檔上傳)</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
-          <td id='m3'>2</td>
-          <td>Strong baseline - 描述、描述、描述 </td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
+          <td id='m3'>4</td>
+          <td>Medium baseline - 繳交字體的對比檔案 (以 experiment_學號_姓名.zip 命名) </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td id='m4'>2</td>
+          <td>Strong baseline - 最後生成結果 (於infer_1資料夾內)</td>
         </tr>
       </table>
     </div>
@@ -221,10 +229,34 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-12 twenty">    
+      <img src="./train.png" width="1200px" height="600px"/>  
+    </div>
+  </div>
+  
+   <div class="row hw12">
+    <div class="col-md-12 twenty">          
+      <img src="./val.png" width="1200px" height="600px"/>
+      
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------>
+
+  <div class="row hw12">
+    <div class="col-md-12 twenty">    
+      <h1>Medium Baseline</h1>
+      <a href="https://drive.google.com/file/d/1p_QRtON7tRY6AFPpyyx__EfQM8JisoSg/view?usp=sharing" download="experiment_112598048">Download experiment_112598048_曾詠暄</a>
+      
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">    
+      <h1>Strong Baseline</h1>
+      <a href="https://drive.google.com/file/d/1vqiKfKu_guU8inpUdv1SgJjqmv-D82QY/view?usp=sharing" download="infer_112598048">Download infer_112598048_曾詠暄</a>
+      
     </div>
   </div>
 
